@@ -83,8 +83,9 @@ nav a:hover {
 
 
 main{
-	width:55%;
+	width:50%;
 	margin:2rem;
+	margin-left:2.5rem;
 	float:left;
 	//min-width: 32rem;
 	
@@ -144,7 +145,7 @@ aside{
 	background-color: #fff;
 	border-radius: 0.63rem;
 	padding:2rem 3rem;
-	margin:2rem;
+	margin:2rem 0rem 2rem 2rem;
 }
 
 aside p{
@@ -174,18 +175,18 @@ aside input[type*="submit"]:hover{
 	}
 }*/
  
-@media screen and (max-width:720px){
+@media screen and (max-width:860px){
 	main{	
-		width:50%;
+		width:90%;
 	}
 	aside{
-		width:30%;
+		width:80%;
 		margin:2rem 0.5rem;
 	}
 }
 
 
-@media (max-width:640px){
+/*@media (max-width:640px){
 	main,aside{
 		width:100%;
 	}
@@ -195,4 +196,4 @@ aside input[type*="submit"]:hover{
 	nav a{
 		font-size: 1.3rem;
 	}
-}
+}*/
